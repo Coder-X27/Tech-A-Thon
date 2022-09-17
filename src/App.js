@@ -13,9 +13,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<LoginSignup/>} />
+          {/* <Route exact path="/" element={<LoginSignup/>} /> */}
           <Route exact path="/" element={<Home />} />
-
         </Routes>
       </Router>
     </>
